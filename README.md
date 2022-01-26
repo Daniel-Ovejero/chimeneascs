@@ -1,3 +1,3 @@
 # Chimeneas
 
-Page web du site de Candido Sebastian
+Web page of CandidoCS
