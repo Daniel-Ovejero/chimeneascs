@@ -27,11 +27,11 @@ p {
 }
 
 a:hover, a:focus {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 a {
-  color: #F97794;
+  color: #E54E1B;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -73,7 +73,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .bg-defult {
-  background: #F97794 !important;
+  background: #E54E1B !important;
 }
 
 /* ==========================================================================
@@ -106,7 +106,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   bottom: -8px;
   width: 80px;
   height: 2px;
-  background: #F97794;
+  background: #E54E1B;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   transition: 0.3s;
@@ -150,7 +150,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-common {
-  background-color: #F97794;
+  background-color: #E54E1B;
   position: relative;
   z-index: 1;
   padding: 12px 32px;
@@ -179,6 +179,39 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   transition: all 0.3s ease;
 }
 
+.line {
+  display: block;
+  height: 2px;
+  width: 150px;
+  background-color: #E54E1B;
+  border-radius: 50px;
+  margin: 30px auto 0;
+  position: relative; }
+.line .box {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #E54E1B;
+  -webkit-transform: translateX(-35%) rotate(45deg);
+  -moz-transform: translateX(-35%) rotate(45deg);
+  -ms-transform: translateX(-35%) rotate(45deg);
+  -o-transform: translateX(-35%) rotate(45deg);
+  transform: translateX(-35%) rotate(45deg); }
+.line .box::before, .line .box::after {
+  position: absolute;
+  content: '';
+  top: 7px;
+  left: -8px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(229, 78, 27, 0.33); }
+.line .box::after {
+  left: auto;
+  right: -7px;
+  top: -8px; }
+
 .btn-effect:hover:after {
   width: 100%;
 }
@@ -194,7 +227,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .btn-border:hover {
   color: #ffffff;
-  background-color: #F97794;
+  background-color: #E54E1B;
 }
 
 .btn-lg {
@@ -300,11 +333,11 @@ button:focus {
 }
 
 .dribbble a {
-  color: #EA4C89;
+  color: #E54E1B;
 }
 
 .dribbble a:hover {
-  background: #EA4C89;
+  background: #E54E1B;
 }
 
 .behance a {
@@ -340,7 +373,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #F97794;
+  background-color: #E54E1B;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -393,7 +426,7 @@ button:focus {
   font-size: 14px;
   text-align: center;
   border-radius: 30px;
-  background-color: #F97794;
+  background-color: #E54E1B;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -410,7 +443,7 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #F97794;
+  background: #E54E1B;
   opacity: 0.5;
   filter: alpha(opacity=80);
 }
@@ -459,11 +492,11 @@ button:focus {
 
 .menu-bg .menu-button:hover {
   cursor: pointer;
-  color: #F97794;
+  color: #E54E1B;
 }
 
 .menu-bg .logo-menu a {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 .menu-bg .navbar-nav .nav-link {
@@ -471,11 +504,11 @@ button:focus {
 }
 
 .menu-bg .navbar-nav .nav-link:hover {
-  color: #F97794 !important;
+  color: #E54E1B !important;
 }
 
 .menu-bg .navbar-nav .active {
-  color: #F97794 !important;
+  color: #E54E1B !important;
 }
 
 .menu-button:hover {
@@ -496,11 +529,11 @@ button:focus {
 
 .bg-white .menu-button:hover {
   cursor: pointer;
-  color: #F97794;
+  color: #E54E1B;
 }
 
 .bg-white .logo-menu a {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 .bg-white .navbar-nav .nav-link {
@@ -508,11 +541,11 @@ button:focus {
 }
 
 .bg-white .navbar-nav .nav-link:hover {
-  color: #F97794 !important;
+  color: #E54E1B !important;
 }
 
 .bg-white .navbar-nav .active {
-  color: #F97794 !important;
+  color: #E54E1B !important;
 }
 
 .close-button {
@@ -534,7 +567,7 @@ button:focus {
   left: 0;
   width: 0;
   height: 2px;
-  background: #F97794;
+  background: #E54E1B;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   transition: 0.3s;
@@ -552,7 +585,7 @@ button:focus {
 .navbar-expand-md .navbar-nav .nav-link:focus,
 .navbar-expand-md .navbar-nav .nav-link:hover,
 .navbar-expand-md .navbar-nav .nav-link:hover:before {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 .navbar-expand-md .navbar-nav .active > .nav-link,
@@ -560,11 +593,11 @@ button:focus {
 .navbar-expand-md .navbar-nav .nav-link.active:before,
 .navbar-expand-md .navbar-nav .nav-link.open,
 .navbar-expand-md .navbar-nav .open > .nav-link {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 .navbar-expand-md .navbar-toggler {
-  background: #F97794;
+  background: #E54E1B;
   border-radius: 0px;
   margin: 5px;
   cursor: pointer;
@@ -596,8 +629,8 @@ button:focus {
 }
 
 .navbar-expand-md .navbar-toggler:active {
-  border: 1px solid #F97794;
-  color: #F97794;
+  border: 1px solid #E54E1B;
+  color: #E54E1B;
 }
 
 /* ==========================================================================
@@ -617,7 +650,7 @@ button:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #F97794;
+  background: #E54E1B;
   opacity: 0.7;
 }
 
@@ -665,7 +698,7 @@ button:focus {
 }
 
 .hero-area .banner_bottom_btn i:hover {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 .intro-img {
@@ -855,7 +888,7 @@ button:focus {
 }
 
 #video-area .banner_bottom_btn i:hover {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 /* ==========================================================================
@@ -879,7 +912,7 @@ button:focus {
 }
 
 #about .box-item .icon i {
-  color: #F97794;
+  color: #E54E1B;
   display: inline-block;
   font-size: 36px;
   margin-bottom: 20px;
@@ -1053,8 +1086,8 @@ button:focus {
 }
 
 .controls .active {
-  color: #F97794 !important;
-  border-color: #F97794;
+  color: #E54E1B !important;
+  border-color: #E54E1B;
   background: transparent;
 }
 
@@ -1152,7 +1185,7 @@ button:focus {
 .item-boxes .icon i {
   font-size: 30px;
   line-height: 60px;
-  color: #F97794;
+  color: #E54E1B;
 }
 
 .item-boxes h4 {
@@ -1252,7 +1285,7 @@ button:focus {
 }
 
 .services-item .services-content h3 a:hover {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 .services-item:hover {
@@ -1306,7 +1339,7 @@ button:focus {
   font-size: 32px;
   text-align: center;
   margin-bottom: 30px;
-  color: #F97794;
+  color: #E54E1B;
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1325,7 +1358,7 @@ button:focus {
 }
 
 .featured-bg .featured-item h3 a:hover {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 /* ==========================================================================
@@ -1342,7 +1375,7 @@ button:focus {
 
 .featured-box .featured-icon i {
   font-size: 30px;
-  color: #F97794;
+  color: #E54E1B;
   text-align: center;
   float: left;
   margin-right: 25px;
@@ -1444,7 +1477,7 @@ button:focus {
   line-height: 34px;
   text-align: center;
   width: 34px;
-  color: #F97794;
+  color: #E54E1B;
   font-size: 14px;
   background: #fff;
   border-radius: 50px;
@@ -1518,7 +1551,7 @@ button:focus {
 }
 
 .testimonial-item .author .author-info h2 a:hover {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 .testimonial-item .content-inner {
@@ -1531,7 +1564,7 @@ button:focus {
 }
 
 .testimonial-item .content-inner span {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 .owl-pagination {
@@ -1565,7 +1598,7 @@ button:focus {
 }
 
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
-  background: #F97794;
+  background: #E54E1B;
 }
 
 /* ==========================================================================
@@ -1710,7 +1743,7 @@ button:focus {
   color: #fff;
   font-size: 24px;
   display: inline-block;
-  background: #F97794;
+  background: #E54E1B;
   border-radius: 30px;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -1819,7 +1852,7 @@ button:focus {
 }
 
 #blog .blog-item-text h3 a:hover {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 .meta-tags {
@@ -1841,7 +1874,7 @@ button:focus {
 }
 
 .meta-tags span a:hover {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 /* ==========================================================================
@@ -1939,7 +1972,7 @@ button:focus {
 }
 
 .post-meta ul li a:hover {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 /* ==========================================================================
@@ -1959,7 +1992,7 @@ button:focus {
 }
 
 .form-control:focus {
-  border: 1px solid #F97794;
+  border: 1px solid #E54E1B;
   outline: none;
   box-shadow: none;
 }
@@ -1978,7 +2011,7 @@ textarea {
 
 .contact-info i {
   font-size: 20px;
-  color: #F97794;
+  color: #E54E1B;
 }
 
 .contact-info h5 {
@@ -2029,7 +2062,7 @@ textarea {
 .toggle-map {
   height: 5px;
   width: 100%;
-  background-color: #F97794;
+  background-color: #E54E1B;
   bottom: 0px;
   text-align: center;
   position: absolute;
@@ -2044,7 +2077,7 @@ textarea {
   -webkit-border-radius: 100%;
   border-radius: 100%;
   background-color: #fff;
-  border: #F97794 3px solid;
+  border: #E54E1B 3px solid;
   position: relative;
   top: -46px;
 }
@@ -2069,7 +2102,7 @@ textarea {
   transition: all 0.3s;
   z-index: 101;
   width: 100%;
-  border-top: #F97794 3px solid;
+  border-top: #E54E1B 3px solid;
 }
 
 #google-map.panel-show {
@@ -2127,7 +2160,7 @@ textarea {
 .subscribe-form .form-wrapper .form-control:focus {
   color: #212121;
   background-color: #fff;
-  border-color: #F97794;
+  border-color: #E54E1B;
   box-shadow: none;
   outline: 0;
 }
@@ -2150,7 +2183,7 @@ textarea {
 
 #subscribe .sub-item-box .icon-box i {
   font-size: 30px;
-  color: #F97794;
+  color: #E54E1B;
 }
 
 #subscribe .sub-item-box .text-box {
@@ -2211,7 +2244,7 @@ footer .menu li a {
 }
 
 footer .menu li a:hover {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 .contact-footer {
@@ -2239,7 +2272,7 @@ footer .menu li a:hover {
 }
 
 .contact-footer li span a:hover {
-  color: #F97794;
+  color: #E54E1B;
 }
 
 .instagram-footer {
@@ -2264,7 +2297,7 @@ footer .menu li a:hover {
 }
 
 .footer-social li a {
-  background-color: #F97794;
+  background-color: #E54E1B;
   border-radius: 50%;
   color: #fff;
   height: 32px;
