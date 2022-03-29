@@ -181,15 +181,16 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .line {
   display: block;
-  height: 2px;
+  height: 1px;
   width: 150px;
   background-color: #E54E1B;
   border-radius: 50px;
-  margin: 30px auto 0;
+  margin: 20px auto 0 auto;
+
   position: relative; }
 .line .box {
   position: absolute;
-  top: 30px;
+  top: -5px;
   left: 50%;
   width: 15px;
   height: 15px;
@@ -211,6 +212,52 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   left: auto;
   right: -7px;
   top: -8px; }
+
+.about_image img {
+  border-radius: 5px;
+  width: 100%; }
+
+.about_content .about_title {
+  font-size: 40px;
+  font-weight: 700; }
+@media (max-width: 767px) {
+  .about_content .about_title {
+    font-size: 24px; } }
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .about_content .about_title {
+    font-size: 30px; } }
+
+.about_content p {
+  margin-top: 25px; }
+
+.about_content .social {
+  padding-top: 30px;
+}
+.about_content .social li {
+  display: inline-block;
+  margin-top: 10px; }
+.about_content .social li + li {
+  margin-left: 15px; }
+.about_content .social li a {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: #7A7A7A;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; }
+.about_content .social li a:hover {
+  color: #fff;
+  background-color: #E54E1B; }
+
+.lni-facebook-filled{
+  font-size: 30px;
+}
 
 .btn-effect:hover:after {
   width: 100%;
