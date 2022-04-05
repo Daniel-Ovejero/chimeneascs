@@ -239,17 +239,12 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .about_content .social li + li {
   margin-left: 15px; }
 .about_content .social li a {
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
+  display: inline-block;
+  height: 30px;
   text-align: center;
   background-color: #7A7A7A;
   color: #fff;
   border-radius: 5px;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
 .about_content .social li a:hover {
   color: #fff;
