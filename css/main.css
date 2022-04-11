@@ -2463,3 +2463,17 @@ footer .menu li a:hover {
   font-size: 18px;
   margin-bottom: 0;
 }
+
+.mapouter{
+    position: relative;
+    text-align: center;
+    height:700px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 700px;
+    width: 100%;
+}
