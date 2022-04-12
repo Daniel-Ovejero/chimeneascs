@@ -250,7 +250,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #fff;
   background-color: #E54E1B; }
 
-.lni-facebook-filled{
+.facebook-about{
   font-size: 30px;
 }
 
@@ -326,69 +326,6 @@ button:focus {
   color: #fff;
 }
 
-.facebook a {
-  color: #4867AA;
-}
-
-.facebook a:hover {
-  background: #4867AA;
-}
-
-.twitter a {
-  color: #1DA1F2;
-}
-
-.twitter a:hover {
-  background: #1DA1F2;
-}
-
-.google-plus a {
-  color: #DD4D42;
-}
-
-.google-plus a:hover {
-  background: #DD4D42;
-}
-
-.youtube a {
-  color: #DF2926;
-}
-
-.youtube a:hover {
-  background: #DF2926;
-}
-
-.linkedin a {
-  color: #007BB6;
-}
-
-.linkedin a:hover {
-  background: #007BB6;
-}
-
-.pinterest a {
-  color: #BD081C;
-}
-
-.pinterest a:hover {
-  background: #BD081C;
-}
-
-.dribbble a {
-  color: #E54E1B;
-}
-
-.dribbble a:hover {
-  background: #E54E1B;
-}
-
-.behance a {
-  color: #0B7CFF;
-}
-
-.behance a:hover {
-  background: #0B7CFF;
-}
 
 /* ==========================================================================
    2.4  Pre Loader
@@ -1528,26 +1465,6 @@ button:focus {
   transition: 0.5s;
 }
 
-.single-team .social-list .facebook a:hover {
-  background: #4867aa;
-  color: #fff;
-}
-
-.single-team .social-list .twitter a:hover {
-  background: #1da1f2;
-  color: #fff;
-}
-
-.single-team .social-list .google-plus a:hover {
-  background: #dd4d42;
-  color: #fff;
-}
-
-.single-team .social-list .linkedin a:hover {
-  background: #007bb6;
-  color: #fff;
-}
-
 .testimonial {
   background: #f9f9f9;
 }
@@ -2350,22 +2267,6 @@ footer .menu li a:hover {
   -webkit-transition: all .4s ease-in-out;
   -moz-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-}
-
-.footer-social li .facebook:hover {
-  background-color: #3b5998;
-}
-
-.footer-social li .twitter:hover {
-  background-color: #55acee;
-}
-
-.footer-social li .linkedin:hover {
-  background-color: #007bb5;
-}
-
-.footer-social li .google-plus:hover {
-  background-color: #dd4b39;
 }
 
 #copyright {
