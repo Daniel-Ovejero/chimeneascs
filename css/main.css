@@ -215,7 +215,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .about_image img {
   border-radius: 5px;
-  width: 100%; }
+  width: 100%; 
+}
 
 .about_content .about_title {
   font-size: 40px;
